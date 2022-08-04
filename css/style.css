@@ -1,13 +1,13 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Verdana:ital,wght@0,400;0,900;1,700&display=swap");
 
 /* CSS Variables */
 :root {
-    --normal-font: 400;
-    --bold-font: 600;
+    --normal-font: 900;
+    --bold-font: 700;
     --bolder-font: 900;
     --primary-color: #000000;
-    --secondary-color: #ea2027;
+    --secondary-color: rgb(37, 196, 182);
     --line-height: 1.7rem;
     --transition: 0.4s ease-in;
   }
@@ -24,7 +24,7 @@
     box-sizing: border-box;
     transition: var(--transition);
   } body {
-    font-family: "Roboto", sans-serf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
   }
   
   ul li {
@@ -71,7 +71,24 @@ nav {
   .nav-link {
     font-weight: var(--bold-font);
   }
+
+  .home{
+    color: rgb(9, 104, 9);
+  }
+
+  .services{
+    color: rgb(41, 212, 212);
+  }
+
+  .about{
+    color:rgb(61, 110, 61);
+  }
+
+  .contact{
+    color: gray
+  }
   
+
 
 /* *{
     margin: 0;
