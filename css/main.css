@@ -3,8 +3,8 @@
 * ---------------------------------------------------------------------------
 *
 * Template : Blue - A One-Page HTML Portfolio/Business Template
-* Author : Muhammad Morshd
-* Author URI : http://morsheds.com
+* Author : TDPG
+* 
 *
 * --------------------------------------------------------------------------- 
 *
@@ -69,7 +69,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Monospace', sans-serif;
     color: #252525;
 }
 
@@ -1016,12 +1016,12 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-color: #c1c1c1;
     padding: 0;
 }
 
 #social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
+    /* background: url("../img/slide_bg.png") repeat scroll 0 0 transparent; */
     padding: 100px 0 120px;
 }
 

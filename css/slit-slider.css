@@ -155,13 +155,13 @@
 }
 
 .bg-img-1 {
-	background-image: url(../img/slider/home1.jpg);
+	background-color: #009EE3;
 }
 .bg-img-2 {
-	background-image: url(../img/slider/home2.jpg);
+	background-color: aqua;
 }
 .bg-img-3 {
-	background-image: url(../img/slider/home3.jpg);
+	background-color: aquamarine;
 }
 
 .bg-img-4 {
